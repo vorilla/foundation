@@ -1,6 +1,25 @@
-p{
-    color: red;
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-h1{
-    color: blue;
-}   
+
+h1 {
+    text-align: center;
+    color: yellowgreen;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.flex-box p {
+    margin: 10px;
+    padding: 20px;
+    background-color: blue;
+    border: 10px solid #ccc;
+    flex: auto;
+    gap: calc(1px + 20%);
+}
